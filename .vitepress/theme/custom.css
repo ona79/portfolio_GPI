@@ -62,10 +62,12 @@
 /* Typographie & Titres */
 .vp-doc h1 { font-size: 1.9rem; margin-top: .4rem; letter-spacing: -.01em; }
 .vp-doc h2 { border-top: 0; padding-top: 14px; margin-top: 40px; border-left: 4px solid var(--gold); padding-left: 12px; }
-.vp-doc table { display: table; width: 100%; font-size: 14px; margin: 16px 0; }
-.vp-doc th { background: var(--vp-c-brand-soft); font-weight: 600; }
+/* Tables — responsive scroll sur tous les écrans */
+.vp-doc .table-wrapper,
+.vp-doc table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; font-size: 14px; margin: 16px 0; }
+.vp-doc th { background: var(--vp-c-brand-soft); font-weight: 600; white-space: nowrap; }
 .vp-doc td, .vp-doc th { padding: 9px 12px; }
-.vp-doc table { display: block; overflow-x: auto; }
+.vp-doc td { vertical-align: top; }
 
 /* Badges & Méta */
 .theme-badge { 
@@ -208,4 +210,8 @@
   .vp-doc h1 { font-size: 1.5rem; } 
   .rmatrix th, .rmatrix td { width: 44px; height: 38px; } 
   .btn-action-secondary { margin-left: 0; }
+  .vp-doc table { font-size: 12px; }
+  .vp-doc td, .vp-doc th { padding: 6px 8px; }
+  .vp-doc th { font-size: 11px; }
+  .nav-bottom { flex-direction: column; gap: 10px; }
 }
