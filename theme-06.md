@@ -74,8 +74,7 @@ L'évaluation qualitative positionne chaque risque sur une échelle standard gra
 - **Probabilité ($P$)** : 1 (Très improbable < 10 %) à 5 (Quasi certain > 80 %).
 - **Impact ($I$)** : 1 (Négligeable) à 5 (Critique / Bloquant).
 
-Le **Score d'Exposition ($E$)** est calculé selon la relation mathématique :
-$$E = P \times I \quad (E \in [1, 25])$$
+Le **Score d'Exposition (E)** est calculé selon la relation : **E = P × I**, avec E ∈ [1, 25].
 
 | Plage de score | Niveau de criticité | Seuil de gouvernance imposé |
 |:---:|:---:|---|
@@ -87,7 +86,7 @@ $$E = P \times I \quad (E \in [1, 25])$$
 
 Pour les projets à fort enjeu financier, l'analyse quantitative dépasse le score subjectif pour chiffrer l'impact économique :
 - **Valeur Monétaire Espérée (EMV - Expected Monetary Value)** :
-  $$\text{EMV} = \sum_{k} (P_k \times \text{Impact Financier}_k)$$
+  - `EMV = Σ (Probabilité_k × Impact Financier_k)`
   Permet d'arbitrer rationnellement entre plusieurs choix d'architecture ou de sous-traitance à l'aide d'arbres de décision.
 - **Simulations de Monte Carlo** : exécution de milliers de simulations informatiques combinant des distributions de probabilité (Beta-PERT, Triangulaire) sur les durées de chaque tâche pour calculer la probabilité exacte d'achever le projet à une date donnée.
 

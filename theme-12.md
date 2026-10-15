@@ -88,12 +88,12 @@ Elle repose sur le triptyque :
 
 Le succès d'un projet informatique s'évalue selon quatre critères fondamentaux :
 
-| Critère d'évaluation | Indicateur mesurable | Formule d'évaluation de conformité |
+| Critère d'évaluation | Indicateur mesurable | Cible de conformité |
 |---|---|:---:|
-| **1. Respect du calendrier** | Écart calendaire de livraison | $$\text{Écart Délai} = \text{Date de clôture effective} - \text{Date de fin contractuelle}$$ |
-| **2. Maîtrise budgétaire** | Écart budgétaire à l'achèvement | $$VAC = BAC - EAC \quad (\text{Objectif } VAC \ge 0)$$ |
-| **3. Conformité technique** | Couverture de tests et anomalies | $$\text{Taux de couverture} \ge 60 \text{ \% et 0 anomalie bloquante ouverte}$$ |
-| **4. Satisfaction métier** | Note d'adhésion des utilisateurs | $$\text{Score CSAT} \ge 4,0 / 5 \text{ lors des ateliers de recette}$$ |
+| **1. Respect du calendrier** | Écart calendaire de livraison |  → Objectif ≤ 0 jour |
+| **2. Maîtrise budgétaire** | Écart budgétaire à l'achèvement |  → Objectif : VAC ≥ 0 |
+| **3. Conformité technique** | Couverture de tests et anomalies | Taux de couverture ≥ 60 % et **0 anomalie bloquante** ouverte |
+| **4. Satisfaction métier** | Note d'adhésion des utilisateurs | Score CSAT ≥ **4,0 / 5** lors des ateliers de recette |
 
 ### 2.5 La rétrospective finale et la directive première de Kerth
 

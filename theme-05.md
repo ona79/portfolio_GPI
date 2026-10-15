@@ -69,20 +69,20 @@ Conçu par **Henry Gantt en 1910**, ce diagramme temporel représente les activi
 Mis au point en 1958 pour le programme de missiles Polaris de l'US Navy, le **PERT (Program Evaluation and Review Technique)** modélise les tâches sous la forme d'un réseau orienté (graphe sans circuit). 
 
 Pour chaque tâche $i$, on calcule méthodiquement quatre grandeurs temporelles :
-- **Date de début au plus tôt ($ES_i$)** : date minimale à laquelle la tâche peut démarrer, conditionnée par l'achèvement de tous ses prédécesseurs immédiats :
-  $$ES_i = \max_{p \in \text{Préd}(i)} (EF_p), \quad \text{avec } ES_1 = 0$$
-- **Date de fin au plus tôt ($EF_i$)** :
-  $$EF_i = ES_i + D_i \quad (D_i = \text{durée de la tâche})$$
-- **Date de fin au plus tard ($LF_i$)** : date maximale à laquelle la tâche doit impérativement s'achever sans retarder la fin globale du projet $T_{\text{projet}}$ :
-  $$LF_i = \min_{s \in \text{Succ}(i)} (LS_s), \quad \text{avec } LF_{\text{final}} = EF_{\text{final}}$$
-- **Date de début au plus tard ($LS_i$)** :
-  $$LS_i = LF_i - D_i$$
+- **Date de début au plus tôt (ES)** : date minimale à laquelle la tâche peut démarrer, conditionnée par l'achèvement de tous ses prédécesseurs :
+  - `ES = max(EF des prédécesseurs)` ; `ES₁ = 0` pour la première tâche.
+- **Date de fin au plus tôt (EF)** :
+  - `EF = ES + Durée`
+- **Date de fin au plus tard (LF)** : date maximale à laquelle la tâche doit s'achever sans retarder la fin du projet :
+  - `LF = min(LS des successeurs)` ; `LF_final = EF_final`.
+- **Date de début au plus tard (LS)** :
+  - `LS = LF − Durée`
 
 À partir de ces valeurs, on en déduit deux marges fondamentales :
-- **La Marge Totale ($MT_i$)** : retard maximal qu'une tâche peut prendre sans retarder la date d'achèvement finale du projet :
-  $$MT_i = LS_i - ES_i = LF_i - EF_i$$
-- **La Marge Libre ($ML_i$)** : retard maximal qu'une tâche peut prendre sans retarder la date de début au plus tôt de la plus précoce de ses tâches suivantes :
-  $$ML_i = \min_{s \in \text{Succ}(i)} (ES_s) - EF_i$$
+- **Marge Totale (MT)** : retard maximal d'une tâche sans retarder la fin du projet :
+  - `MT = LS − ES = LF − EF`
+- **Marge Libre (ML)** : retard maximal sans retarder le début au plus tôt d'une tâche suivante :
+  - `ML = min(ES successeurs) − EF`
 
 ### 2.4 La méthode du chemin critique (CPM)
 
@@ -187,9 +187,8 @@ flowchart LR
   F ==> G["G: Déploiement<br>2 j | MT = 0"]
 ```
 
-> **Identification du Chemin Critique :**
-> $$\text{Chemin Critique} = \mathbf{A} \rightarrow \mathbf{B} \rightarrow \mathbf{C} \rightarrow \mathbf{E} \rightarrow \mathbf{F} \rightarrow \mathbf{G}$$
-> **Durée minimale incompressible du projet** : $5 + 7 + 12 + 5 + 6 + 2 = \mathbf{37 \text{ jours ouvrés}}$.
+> **Chemin Critique identifié : A → B → C → E → F → G**
+> **Durée minimale incompressible du projet** : 5 + 7 + 12 + 5 + 6 + 2 = **37 jours ouvrés**.
 
 ### 3.4 Analyse systématique de l'impact des retards sur le chemin critique
 

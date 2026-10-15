@@ -86,7 +86,7 @@ Selon la norme **ISO/IEC/IEEE 29148**, les exigences doivent être catégorisée
 - **Exigences non-fonctionnelles (qualité)** : contraintes de performance, sécurité, ergonomie et disponibilité (ex. *« Le temps de génération du PDF d'évaluation via iTextPDF ne doit pas excéder 1,5 seconde »*).
 
 Les techniques de recueil combinent des **interviews semi-directives** avec des responsables RH, des **ateliers de co-conception de maquettes (UI/UX)** et la formalisation d'exigences sous forme de **User Stories** standardisées :
-$$\text{En tant que } [\text{rôle}], \text{ je veux } [\text{action/fonctionnalité}], \text{ afin de } [\text{bénéfice métier attendu}].$$
+> **En tant que** `[rôle]`, **je veux** `[action/fonctionnalité]`, **afin de** `[bénéfice métier attendu]`.
 
 ### 2.4 Structure et règles de rédaction d'un cahier des charges
 
@@ -101,12 +101,16 @@ Le **Cahier des Charges Fonctionnel et Technique (CDC)** matérialise l'engageme
 
 Initialement modélisée par **Mendelow (1991)**, cette matrice classe les parties prenantes selon deux dimensions d'analyse notées de faible à fort, définissant quatre stratégies de gouvernance opérationnelle :
 
-| Quadrant | Niveau de Pouvoir | Niveau d'Intérêt | Stratégie d'action préconisée |
+<div class="rwrap">
+
+| Quadrant | Pouvoir | Intérêt | Stratégie d'action |
 |---|:---:|:---:|---|
-| **Quadrant 1** | **Fort** | **Fort** | **Gérer de près (Manage Closely)** : collaboration étroite, participation aux comités de pilotage, arbitrage direct. |
-| **Quadrant 2** | **Fort** | **Faible** | **Maintenir satisfait (Keep Satisfied)** : communication synthétique, s'assurer que leurs exigences fondamentales sont respectées sans les saturer de détails. |
-| **Quadrant 3** | **Faible** | **Faible** | **Surveiller (Monitor)** : suivi périodique sans mobilisation de ressources excessives. |
-| **Quadrant 4** | **Faible** | **Fort** | **Garder informé (Keep Informed)** : canal de communication régulier, recueil de feedbacks terrain pour assurer l'adhésion. |
+| **Quadrant 1** | **Fort** | **Fort** | **Gérer de près** *(Manage Closely)* — collaboration étroite, comités de pilotage, arbitrage direct. |
+| **Quadrant 2** | **Fort** | **Faible** | **Maintenir satisfait** *(Keep Satisfied)* — communication synthétique, respect des exigences fondamentales. |
+| **Quadrant 3** | **Faible** | **Faible** | **Surveiller** *(Monitor)* — suivi périodique sans mobilisation excessive. |
+| **Quadrant 4** | **Faible** | **Fort** | **Garder informé** *(Keep Informed)* — canal régulier, recueil de feedbacks terrain. |
+
+</div>
 
 ---
 

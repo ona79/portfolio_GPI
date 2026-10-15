@@ -52,9 +52,8 @@ Pour **CareerTrack**, structurer la communication et le reporting répond à un 
 
 Le modèle classique de **Shannon et Weaver (1949)** illustre le parcours de l'information : un émetteur encode un message, le transmet via un canal à un récepteur qui le décode, sous l'influence constante de « bruits » parasites (ambiguïtés de vocabulaire technique, présupposés, surcharge cognitive).
 
-En gestion de projet, le nombre de canaux potentiels de communication croît de façon exponentielle avec la taille de l'équipe selon la formule mathématique :
-$$N_{\text{canaux}} = \frac{n(n - 1)}{2}$$
-Pour notre équipe de $n = 5$ membres, il existe $\frac{5 \times 4}{2} = \mathbf{10 \text{ canaux directs}}$. Sans formalisation rigoureuse, les discussions éclatent sur des canaux parallèles non tracés.
+En gestion de projet, le nombre de canaux potentiels de communication croît de façon exponentielle avec la taille de l'équipe selon la formule : **N = n × (n − 1) / 2**.
+Pour notre équipe de **n = 5** membres, il existe **5 × 4 / 2 = 10 canaux directs**. Sans formalisation rigoureuse, les discussions éclatent sur des canaux parallèles non tracés.
 
 Le **Plan de Communication** documente formellement pour chaque message : l'émetteur, le destinataire, l'objectif, le support de diffusion, la fréquence et le mode de rétroaction (*feedback loop*).
 

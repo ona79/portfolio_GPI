@@ -78,34 +78,34 @@ Normalisée par la norme américaine **ANSI/EIA-748** et le guide **PMBOK**, la 
 Elle repose sur quatre métriques financières fondamentales (exprimées ici en FCFA) :
 - **Budget at Completion (BAC)** : enveloppe budgétaire totale prévisionnelle allouée au projet.
 - **Planned Value (PV - Valeur Planifiée)** : budget du travail qui aurait dû être accompli à la date d'état selon le planning initial :
-  $$PV = \text{Pourcentage prévu du travail} \times BAC$$
-- **Earned Value (EV - Valeur Acquise)** : valeur budgétée du travail réellement accompli et validé à la date d'état selon les critères de terminaison :
-  $$EV = \text{Pourcentage réellement réalisé} \times BAC$$
+  - `PV = % prévu d'avancement × BAC`
+- **Earned Value (EV - Valeur Acquise)** : valeur budgétée du travail réellement accompli et validé à la date d'état :
+  - `EV = % réellement réalisé × BAC`
 - **Actual Cost (AC - Coût Réel)** : montant financier effectivement dépensé et engagé pour exécuter le travail accompli.
 
 ### 2.4 Les indicateurs d'efficacité et d'écart
 
 À partir de ces quatre grandeurs, le chef de projet calcule les écarts absolus et les indices relatifs de performance :
 
-| Métrique | Formule formelle | Interprétation mathématique et seuil critique |
+| Métrique | Formule | Interprétation |
 |---|:---:|---|
-| **Cost Variance (CV)** | $$CV = EV - AC$$ | • $CV > 0$ : Économie budgétaire (favorable).<br>• $CV < 0$ : Dépassement budgétaire (défavorable). |
-| **Schedule Variance (SV)** | $$SV = EV - PV$$ | • $SV > 0$ : Avance sur le calendrier initial.<br>• $SV < 0$ : Retard calendaire par rapport au plan. |
-| **Cost Performance Index (CPI)** | $$CPI = \frac{EV}{AC}$$ | • $CPI > 1,0$ : Performance économique supérieure (chaque FCFA dépensé produit plus de 1 FCFA de valeur).<br>• $CPI < 1,0$ : Surcoût d'exécution (défavorable). |
-| **Schedule Performance Index (SPI)** | $$SPI = \frac{EV}{PV}$$ | • $SPI > 1,0$ : Rythme d'avancement supérieur aux prévisions.<br>• $SPI < 1,0$ : Rythme d'avancement insuffisant (défavorable). |
+| **Cost Variance (CV)** | `CV = EV − AC` | CV > 0 : Économie budgétaire ✅ · CV < 0 : Dépassement ❌ |
+| **Schedule Variance (SV)** | `SV = EV − PV` | SV > 0 : Avance sur calendrier ✅ · SV < 0 : Retard ❌ |
+| **Cost Performance Index (CPI)** | `CPI = EV / AC` | CPI > 1,0 : Efficacité supérieure ✅ · CPI < 1,0 : Surcoût ❌ |
+| **Schedule Performance Index (SPI)** | `SPI = EV / PV` | SPI > 1,0 : Rythme supérieur ✅ · SPI < 1,0 : Retard ❌ |
 
 ### 2.5 Les formules prédictives d'achèvement
 
 Lorsque des écarts apparaissent en cours de projet, l'EVM permet d'extrapoler mathématiquement l'atterrissage final :
 
-- **Estimation à l'Achèvement (EAC - Estimate At Completion)** : projection du coût total final si la performance actuelle se poursuit :
-  $$EAC = \frac{BAC}{CPI}$$
-- **Estimation pour Achever (ETC - Estimate To Complete)** : montant restant à dépenser à partir de la date d'état pour terminer le projet :
-  $$ETC = EAC - AC$$
-- **Écart à l'Achèvement (VAC - Variance At Completion)** : excédent ou déficit financier prévisible lors de la clôture du projet :
-  $$VAC = BAC - EAC$$
-- **Indice de Performance pour Achever (TCPI - To-Complete Performance Index)** : efficacité économique que l'équipe doit obligatoirement atteindre sur le travail restant pour respecter le budget initial :
-  $$TCPI = \frac{BAC - EV}{BAC - AC}$$
+- **Estimation à l'Achèvement (EAC)** : projection du coût total final si la performance actuelle se poursuit :
+  - `EAC = BAC / CPI`
+- **Estimation pour Achever (ETC)** : montant restant à dépenser pour terminer le projet :
+  - `ETC = EAC − AC`
+- **Écart à l'Achèvement (VAC)** : excédent ou déficit prévisible à la clôture :
+  - `VAC = BAC − EAC`
+- **Indice de Performance pour Achever (TCPI)** : efficacité que l'équipe doit atteindre sur le travail restant pour respecter le budget :
+  - `TCPI = (BAC − EV) / (BAC − AC)`
 
 ---
 

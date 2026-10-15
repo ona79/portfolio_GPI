@@ -122,7 +122,7 @@ flowchart TD
   2. *Green* : écrire la quantité minimale de code nécessaire pour faire passer le test avec succès.
   3. *Refactor* : restructurer le code pour éliminer la duplication et améliorer la lisibilité sans casser les tests.
 - **Behavior-Driven Development (BDD - Dan North)** : collaboration étroite entre développeurs et experts métiers à l'aide de scénarios rédigés en langage naturel structuré selon la syntaxe **Gherkin** :
-  $$\textbf{Given } (\text{Étant donné}), \quad \textbf{When } (\text{Quand}), \quad \textbf{Then } (\text{Alors}).$$
+  > **Given** *(Étant donné)* → **When** *(Quand)* → **Then** *(Alors)*.
 
 ---
 
