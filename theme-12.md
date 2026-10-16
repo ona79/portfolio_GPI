@@ -7,7 +7,7 @@ title: "Thème 12 - Clôture de Projet et Retour d'Expérience (REX)"
 # Clôture de Projet et Retour d'Expérience (REX)
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>
@@ -112,7 +112,7 @@ Cette règle élimine la culture toxique du blâme (*Blameless Culture*) pour fo
 | Rubrique officielle | Bilan formel d'achèvement — Projet CareerTrack |
 |---|---|
 | **Intitulé & Identification** | **CareerTrack v1.0.0** — Plateforme RH de Gestion des Carrières en Entreprise. |
-| **Équipe de réalisation** | **Groupe 3** (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo) · UASZ. |
+| **Équipe de réalisation** | **Groupe 3** (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo) · UASZ. |
 | **Rappel des objectifs initiaux** | Concevoir une solution unifiée (Spring Boot, React, PostgreSQL, iTextPDF) digitalisant les dossiers collaborateurs, les congés conformes au Code du Travail, les évaluations annuelles SMART, les formations et le recrutement Kanban. |
 | **Bilan des livrables (Prévus vs Réalisés)** | **100 % des livrables contractuels livrés** : 15 User Stories (82 points) réceptionnées sans réserve ; API REST documentée sous Swagger OpenAPI 3.0 ; couverture de tests automatisés à **78,4 %** (exigence ≥ 60 %) ; application déployée en ligne sur environnement Cloud PaaS. |
 | **Bilan de performance calendaire** | Durée totale effective de **37 jours ouvrés** (8 semaines de projet), rigoureusement conforme au chemin critique PERT calculé au Thème 5. |

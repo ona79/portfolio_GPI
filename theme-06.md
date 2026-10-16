@@ -7,7 +7,7 @@ title: "Thème 6 - Gestion des Risques"
 # Gestion des Risques
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>

@@ -7,7 +7,7 @@ title: "Thème 10 - Qualité et Tests dans les Projets IT"
 # Qualité et Tests dans les Projets IT
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>
@@ -137,7 +137,7 @@ Le tableau ci-dessous formalise la stratégie de test déployée pour l'ensemble
 | **Tests Unitaires** | Valider la logique métier pure des services et des calculs sans base de données. | **JUnit 5, Mockito, AssertJ** | Tous les développeurs (Eric Joel Manga, Mouhamed Fam) |
 | **Tests d'Intégration** | Valider les requêtes SQL, la persistance relationnelle et la sécurité des endpoints REST. | **Spring Boot Test, Testcontainers, MockMvc** | Lead Tech (Ibrahima Diallo) |
 | **Tests d'API & Contrat** | Vérifier la conformité de l'API avec la spécification OpenAPI 3.0. | **Swagger Validator, Postman Newman** | Responsable Qualité (Assete Faye) |
-| **Tests End-to-End (E2E)** | Valider le parcours utilisateur complet dans l'interface React responsive. | **Cypress, React Testing Library** | Développeuse Frontend (Soxna) |
+| **Tests End-to-End (E2E)** | Valider le parcours utilisateur complet dans l'interface React responsive. | **Cypress, React Testing Library** | Développeuse Frontend (Aminatou Touré) |
 | **Recette Métier (UAT)** | Valider l'adéquation aux scénarios réels de gestion RH des PME sénégalaises. | **Scénarios Gherkin, Fiches de recette** | Product Owner & Tuteurs académiques |
 
 ### 3.2 Formalisation contractuelle de la Definition of Ready (DoR) et Definition of Done (DoD)
@@ -169,7 +169,7 @@ Le référentiel ci-dessous documente les cas de tests fondamentaux exécutés a
 | ID | Description détaillée de l'anomalie | Gravité | Détecté par | Action corrective mise en œuvre | Statut |
 |:---:|---|:---:|---|---|:---:|
 | **NC1** | Décompte erroné des samedis comme jours ouvrés dans le calcul des congés payés. | **Majeure** | Assete Faye (Tests) | Réécriture du service `SenegalHolidayCalendar` pour respecter l'article L.148 du Code du Travail sénégalais. | **Résolu** |
-| **NC2** | Perte du token JWT lors du rafraîchissement d'un écran sur l'application mobile React. | **Moyenne** | Soxna (UI) | Sauvegarde du token dans le stockage local persistant avec rotation sécurisée du refresh token. | **Résolu** |
+| **NC2** | Perte du token JWT lors du rafraîchissement d'un écran sur l'application mobile React. | **Moyenne** | Aminatou Touré (UI) | Sauvegarde du token dans le stockage local persistant avec rotation sécurisée du refresh token. | **Résolu** |
 | **NC3** | Lenteur excessive lors de la génération concurrente de plus de 10 PDF iTextPDF. | **Mineure** | Ibrahima Diallo | Optimisation des flux mémoires Java et mise en cache des images des logos d'entreprise. | **Résolu** |
 
 ---

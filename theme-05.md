@@ -7,7 +7,7 @@ title: "Thème 5 - Planification et Ordonnancement"
 # Planification et Ordonnancement
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>
@@ -222,7 +222,7 @@ Cette durée globale est articulée avec les **4 Sprints Scrum de 2 semaines** d
 | **Eric Joel Manga** | Modélisation relationnelle (B), Services Backend (C) | 19 j/h | Développeur principal sur l'axe critique B $\rightarrow$ C. |
 | **Assete Faye** | Conception des cas d'essais (B), Campagne de tests JUnit (F) | 16 j/h | Responsable de la tâche critique de qualification F. |
 | **Mouhamed Fam** | Cadrage initial (A), Ordonnancement PERT, Intégration (E) | 17 j/h | Responsable de la tâche critique A et de l'intégration E. |
-| **Soxna** | Spécifications fonctionnelles (A), Maquettes & UI React (D) | 15 j/h | Pilote de la tâche D (Frontend, gestion de la marge de 2 j). |
+| **Aminatou Touré** | Spécifications fonctionnelles (A), Maquettes & UI React (D) | 15 j/h | Pilote de la tâche D (Frontend, gestion de la marge de 2 j). |
 | **Ibrahima Diallo** | Architecture globale (B), Sécurité JWT (C), Déploiement (G) | 18 j/h | Pilote de la tâche finale critique de déploiement cloud G. |
 
 ---

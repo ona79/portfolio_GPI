@@ -7,7 +7,7 @@ title: "Thème 2 - Cadrage et Initialisation du Projet"
 # Cadrage et Initialisation du Projet
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>
@@ -172,7 +172,7 @@ quadrantChart
 |---|---|
 | **Intitulé du projet** | **CareerTrack** — Système d'Information RH et Pilotage des Carrières en Entreprise |
 | **Commanditaire / Sponsor** | M. Khalifa GAYE (Enseignant responsable du module GPIA) · Direction des PME partenaires au Sénégal |
-| **Équipe de réalisation** | **Groupe 3** (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo) |
+| **Équipe de réalisation** | **Groupe 3** (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo) |
 | **Justification métier** | Combler le vide technologique entre les tableurs Excel artisanaux et les progiciels de gestion intégrés inaccessibles financièrement, tout en digitalisant le respect du Code du Travail sénégalais. |
 | **Objectifs chiffrés** | 1. Réduire de 5 jours à moins de 2 heures le délai moyen de validation d'un congé payé.<br>2. Atteindre 100 % de traçabilité numérique sur les entretiens annuels d'évaluation avec PV signés (iTextPDF).<br>3. Livrer une application mobile-first réactive avec un temps de réponse moyen aux requêtes API < 300 ms. |
 | **Périmètre inclus (In-Scope)** | 7 modules : Dossier employé, Organigramme, Congés, Évaluations SMART, Formations, Promotions, Recrutement Kanban, Dashboards RH. Sécurité JWT/RBAC, documentation OpenAPI 3.0, Service Worker offline. |

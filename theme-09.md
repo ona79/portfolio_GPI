@@ -7,7 +7,7 @@ title: "Thème 9 - Communication et Reporting Projet"
 # Communication et Reporting Projet
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>
@@ -164,7 +164,7 @@ Le tableau de bord ci-dessous synthétise la santé globale de CareerTrack à l'
 | Séquence de la réunion | Durée | Animateur | Contenu abordé et décisions actées |
 |---|:---:|---|---|
 | **1. Tour de table & Objectifs** | 5 min | Mouhamed Fam | Rappel de l'ordre du jour : validation du socle d'évaluation et examen du calendrier du Sprint 3. |
-| **2. Démonstration de l'incrément** | 10 min | Soxna (PO) | Démonstration en direct du parcours d'un manager validant une évaluation et générant le compte-rendu PDF iTextPDF émargé. |
+| **2. Démonstration de l'incrément** | 10 min | Aminatou Touré (PO) | Démonstration en direct du parcours d'un manager validant une évaluation et générant le compte-rendu PDF iTextPDF émargé. |
 | **3. Revue des métriques (EVM & Qualité)** | 5 min | Eric Joel Manga | Présentation des indicateurs : couverture de code à **74,2 %**, respect du calendrier ($SPI = 1,02$). |
 | **4. Décisions stratégiques** | 5 min | Jury / Tuteur | **Validation formelle du jalon M2 (Socle RH opérationnel)**. Autorisation d'engager le Sprint 3 dédié au recrutement Kanban. |
 | **5. Plan d'actions immédiat** | 5 min | Assete Faye | Synthèse des actions à livrer pour la semaine suivante : spécification des routes OpenAPI du recrutement. |
@@ -176,7 +176,7 @@ Le tableau de bord ci-dessous synthétise la santé globale de CareerTrack à l'
 | **Équipe de développement (Groupe 3)** | Tâches du jour, obstacles techniques, synchronisation du code. | Réunion physique campus / Discord | Quotidien (Daily 15 min) | Scrum Master (Ibrahima Diallo) | Verbal debout + Tableau Kanban à jour |
 | **Enseignant responsable (M. Khalifa GAYE)** | Avancement des sprints, respect du cahier des charges, PV de jalons. | E-mail universitaire + Dépôt GitHub | Hebdomadaire (Vendredi) | Chef de Projet (Mouhamed Fam) | Rapport d'avancement PDF synthétique |
 | **Jury d'évaluation UASZ** | Maîtrise méthodologique, démonstration live, portfolio des 12 thèmes. | Présentation présentielle avec vidéoprojecteur | Jalon final (Soutenance) | Tout le Groupe 3 | Support de présentation 10 min + Démo live |
-| **PME utilisatrices partenaires** | Découverte des fonctionnalités, recueil des avis d'ergonomie RH. | Sessions d'ateliers démo en visioconférence | Fin de chaque Sprint (bimensuel) | Product Owner (Soxna) | Démonstration sur environnement démo web |
+| **PME utilisatrices partenaires** | Découverte des fonctionnalités, recueil des avis d'ergonomie RH. | Sessions d'ateliers démo en visioconférence | Fin de chaque Sprint (bimensuel) | Product Owner (Aminatou Touré) | Démonstration sur environnement démo web |
 
 ---
 

@@ -20,7 +20,7 @@ Le site est généré avec [VitePress](https://vitepress.dev/) et déployé en c
 | Eric Joel Manga | Chef de projet / Architecture |
 | Assete Faye | Développement backend (Spring Boot) |
 | Mouhamed Fam | Développement frontend (React) |
-| Soxna | Qualité & tests |
+| Aminatou Touré | Qualité & tests |
 | Ibrahima Diallo | Base de données & déploiement |
 
 **Encadrant :** M. Khalifa GAYE

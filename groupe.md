@@ -24,7 +24,7 @@ Le Groupe 3 est composé de cinq étudiants inscrits en **Licence 3 Ingénierie 
 | **Eric Joel Manga** | UASZ · UFR Sciences et Technologies | Licence 3 Ingénierie Informatique | Gestion de Projet Informatique Avancée |
 | **Assete Faye** | UASZ · UFR Sciences et Technologies | Licence 3 Ingénierie Informatique | Gestion de Projet Informatique Avancée |
 | **Mouhamed Fam** | UASZ · UFR Sciences et Technologies | Licence 3 Ingénierie Informatique | Gestion de Projet Informatique Avancée |
-| **Soxna** | UASZ · UFR Sciences et Technologies | Licence 3 Ingénierie Informatique | Gestion de Projet Informatique Avancée |
+| **Aminatou Touré** | UASZ · UFR Sciences et Technologies | Licence 3 Ingénierie Informatique | Gestion de Projet Informatique Avancée |
 | **Ibrahima Diallo** | UASZ · UFR Sciences et Technologies | Licence 3 Ingénierie Informatique | Gestion de Projet Informatique Avancée |
 
 ---

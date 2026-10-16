@@ -83,7 +83,7 @@ Ce portfolio académique et professionnel rassemble les travaux de synthèse th�
 | **Eric Joel Manga** | Co-auteur Groupe 3 · Modélisation & Conception | UASZ · Licence 3 Ingénierie Informatique |
 | **Assete Faye** | Co-autrice Groupe 3 · Spécifications & Qualité | UASZ · Licence 3 Ingénierie Informatique |
 | **Mouhamed Fam** | Co-auteur Groupe 3 · Planification & Risques | UASZ · Licence 3 Ingénierie Informatique |
-| **Soxna** | Co-autrice Groupe 3 · Analyse Agile & Métier | UASZ · Licence 3 Ingénierie Informatique |
+| **Aminatou Touré** | Co-autrice Groupe 3 · Analyse Agile & Métier | UASZ · Licence 3 Ingénierie Informatique |
 | **Ibrahima Diallo** | Co-auteur Groupe 3 · Architecture & Pilotage | UASZ · Licence 3 Ingénierie Informatique |
 
 <div style="margin-top: 24px; display: flex; flex-wrap: wrap; gap: 14px;">

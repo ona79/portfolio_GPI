@@ -7,7 +7,7 @@ title: "Thème 8 - Gestion des Ressources Humaines et Leadership"
 # Gestion des Ressources Humaines et Leadership
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
 </div>
@@ -146,7 +146,7 @@ Dans le cadre du développement de CareerTrack, une divergence d'ingénierie maj
 
 Le tableau ci-dessous formalise la répartition univoque des responsabilités pour l'ensemble des macro-activités du projet CareerTrack :
 
-| Activités d'ingénierie logicielle | Eric Joel Manga | Assete Faye | Mouhamed Fam | Soxna | Ibrahima Diallo |
+| Activités d'ingénierie logicielle | Eric Joel Manga | Assete Faye | Mouhamed Fam | Aminatou Touré | Ibrahima Diallo |
 |---|:---:|:---:|:---:|:---:|:---:|
 | **1. Cadrage & Charte de projet** | C | C | **A** | C | R |
 | **2. Modélisation relationnelle PostgreSQL** | **A** | I | R | C | C |
@@ -189,7 +189,7 @@ Sur **CareerTrack**, chaque membre du Groupe 3 a apporté sa valeur ajoutée san
 - **Eric Joel Manga** : Référent de la modélisation des données relationnelles PostgreSQL et du moteur de persistance des dossiers employés et congés légaux.
 - **Assete Faye** : Garante de l'assurance qualité logicielle, autrice de la suite de tests automatisés JUnit/Mockito et auditrice des critères d'acceptation.
 - **Mouhamed Fam** : Pilote de la planification prédictive, de l'ordonnancement PERT/Gantt et de la surveillance budgétaire EVM.
-- **Soxna** : Product Owner, responsable de l'ergonomie de l'interface React mobile-first et du parcours collaborateur pour l'évaluation annuelle.
+- **Aminatou Touré** : Product Owner, responsable de l'ergonomie de l'interface React mobile-first et du parcours collaborateur pour l'évaluation annuelle.
 - **Ibrahima Diallo** : Coordinateur technique global, garant de la sécurité Spring Security JWT et de l'intégration continue GitHub Actions.
 
 ### 4.2 Climat de travail, rituels d'entraide et cohésion d'équipe

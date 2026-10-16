@@ -7,7 +7,7 @@ title: "Thème 4 - Méthodes Agiles : Scrum et Kanban"
 # Méthodes Agiles : Scrum et Kanban
 
 <div class="meta-row">
-  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Soxna, Ibrahima Diallo)</span>
+  <span>Présenté par : <strong>Groupe 3</strong> (Eric Joel Manga, Assete Faye, Mouhamed Fam, Aminatou Touré, Ibrahima Diallo)</span>
   <span>Établissement : <strong>UASZ · UFR Sciences et Technologies · L3 Ingénierie Informatique</strong></span>
   <span>Date de présentation : <strong>16 juillet 2026</strong></span>
   <span>Statut : <strong style="color:var(--ok);">Terminé</strong></span>
@@ -229,11 +229,11 @@ Le Product Backlog de CareerTrack regroupe les 15 User Stories formalisées par 
 ### 4.1 Répartition des rôles Scrum au sein du Groupe 3
 
 Afin d'éviter toute dilution de responsabilité tout en valorisant les compétences de chacun, les rôles Scrum sont articulés comme suit :
-- **Product Owner (Soxna)** : porte la voix des DRH et des PME sénégalaises, arbitre les priorités du Product Backlog et valide la conformité des livrables lors des revues de sprint.
+- **Product Owner (Aminatou Touré)** : porte la voix des DRH et des PME sénégalaises, arbitre les priorités du Product Backlog et valide la conformité des livrables lors des revues de sprint.
 - **Scrum Master (Ibrahima Diallo)** : anime les réunions quotidiennes (Daily de 15 min), protège l'équipe contre la dispersion et veille au respect strict des limites de WIP.
 - **Équipe de développement pluridisciplinaire (Developers)** :
   - **Eric Joel Manga & Mouhamed Fam** : architecture des données relationnelles PostgreSQL, sécurisation des endpoints Spring Boot et calculs métier.
-  - **Assete Faye & Soxna** : intégration des composants React mobile-first, consommation de l'API REST et écriture des plans de tests d'acceptation automatisés.
+  - **Assete Faye & Aminatou Touré** : intégration des composants React mobile-first, consommation de l'API REST et écriture des plans de tests d'acceptation automatisés.
 
 ### 4.2 Pipeline Kanban du module Recrutement de talents
 

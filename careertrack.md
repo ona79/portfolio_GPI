@@ -190,7 +190,7 @@ Le sous-module de recrutement (US-11) implémente un flux tiré strict avec limi
 | **Eric Joel Manga** | Responsable Modélisation & Conception | Architecture relationnelle PostgreSQL, conception UML, module Dossier employé et Organigramme |
 | **Assete Faye** | Responsable Qualité Logicielle & Spécifications | Assurance qualité, plan de tests JUnit/Mockito, validation des critères d'acceptation, DoR / DoD |
 | **Mouhamed Fam** | Responsable Planification & Gestion des Risques | Ordonnancement WBS/PERT/Gantt, cartographie des risques P×I, suivi budgétaire EVM |
-| **Soxna** | Responsable Analyse Agile & Processus Métier | Animation des cérémonies Scrum, backlog grooming, module Évaluation annuelle et Formations |
+| **Aminatou Touré** | Responsable Analyse Agile & Processus Métier | Animation des cérémonies Scrum, backlog grooming, module Évaluation annuelle et Formations |
 | **Ibrahima Diallo** | Lead Technique & Coordination Projet | Sécurité Spring Security JWT, architecture d'intégration continue, module Recrutement Kanban et iTextPDF |
 
 ---
